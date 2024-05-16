@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Palácio das Tintas</title>
+</head>
+<body>
+    <!-- introdução bootstrap -->
+    <nav class="navbar navbar-expand-lg" >
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"><img src="./assets/img/paint_brush_icon_10409.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button id="searchButton" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- fim introdução bootstrap -->
+
+    <!-- introdução carrossel -->
+    <div id="carouselCaptions" class="carousel slide " data-bs-ride="carousel" data-bs-interval="3000" >
+        <div class="carousel-indicators" >
+          <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner"  >
+          <div class="carousel-item active" >
+            <img src="./assets/img/tinta 1.jpg" class="d-block w-100" alt="image1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Temos tintas de todas as cores</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, labore?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/giphy.gif" class="d-block w-100" alt="image2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Compre conosco e faça sua arte</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, accusamus.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/monte tinta3.jpg" class="d-block w-100" alt="image3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A tinta que você precisa</h5>
+              <p>Vai fazer uma Reforma? Olhe as nossas Tintas para Paredes.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- fim introdução carrossel -->
+
+      <h1 class="titleSection1">Tintas em pó</h1>
+
+      <!-- introdução grupo de cards -->
+      <!-- inicio seção1 -->
+          <div id="carouselCards1" class="carousel slide">
+            <section class="pt-5 pb-5">
+              <div class="container"> 
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <!-- primeiros 4 cards  -->
+                  <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/povermelho.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pó Colorido Holi Warna </h5>
+                        <h6 class="card-text">Cor: Vermelho</h6>
+                        <p class="card-text">um produto ideal para sua festa ou confraternização!</p>
+                        <p class="card-text">As nossas cores são idênticas as fotos acima!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                          <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/polaranja.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pó Colorido Holi Warna </h5>
+                        <h6 class="card-text">Cor: Laranja</h6>
+                        <p class="card-text">um produto ideal para sua festa ou confraternização!</p>
+                        <p class="card-text">As nossas cores são idênticas as fotos acima!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                          <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/poamarelo.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pó Colorido Holi Warna </h5>
+                        <h6 class="card-text">Cor: Amarelo</h6>
+                        <p class="card-text">um produto ideal para sua festa ou confraternização!</p>
+                        <p class="card-text">As nossas cores são idênticas as fotos acima!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                          <div class="col-md-3">
+                    <div class="card">
+                      <img src="./assets/img/polima.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pó Colorido Holi Warna </h5>
+                        <h6 class="card-text">Cor: Verde Lima</h6>
+                        <p class="card-text">um produto ideal para sua festa ou confraternização!</p>
+                        <p class="card-text">As nossas cores são idênticas as fotos acima!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>              
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <!-- próximos 4 cards -->
+                  <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/poverde.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pó Colorido Holi Warna </h5>
+                        <h6 class="card-text">Cor: Verde</h6>
+                        <p class="card-text">um produto ideal para sua festa ou confraternização!</p>
+                        <p class="card-text">As nossas cores são idênticas as fotos acima!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                          <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/poazul.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pó Colorido Holi Warna </h5>
+                        <h6 class="card-text">Cor: Azul</h6>
+                        <p class="card-text">um produto ideal para sua festa ou confraternização!</p>
+                        <p class="card-text">As nossas cores são idênticas as fotos acima!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+
+                        <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/polilas.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pó Colorido Holi Warna </h5>
+                        <h6 class="card-text">Cor: Lilás</h6>
+                        <p class="card-text">um produto ideal para sua festa ou confraternização!</p>
+                        <p class="card-text">As nossas cores são idênticas as fotos acima!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+
+                          <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/porosa.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pó Colorido Holi Warna </h5>
+                        <h6 class="card-text">Cor: Rosa SHOCK</h6>
+                        <p class="card-text">um produto ideal para sua festa ou confraternização!</p>
+                        <p class="card-text">As nossas cores são idênticas as fotos acima!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+              </div>
+              <!-- adicionar mais itens de carrossel conforme necessário -->
+            </div>
+            <!-- adicionar controles de carrossel aqui, se desejar -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCards1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      <h1 class="titleSection2">Tintas para Paredes</h1>
+
+          <!-- inicio seção2 -->
+          <div id="carouselCards2" class="carousel slide">
+            <section class="pt-5 pb-5">
+              <div class="container"> 
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <!-- primeiros 4 cards -->
+                  <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/anjoAnjoMais.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tinta Acrílica Premium Anjo Mais </h5>
+                        <p class="card-text">Procurando uma tinta que rende muito mais do que as tintas comuns? Escolha a Anjo Mais e faça a aposta certa! Além de ser a tinta mais econômica na relação custo benefício, pode ser diluída em até 60% e cobrir áreas muito maiores.</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                          <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/anjoArquitetura.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tinta Acrílica Standard Arquitetura </h5>
+                        <p class="card-text">Quer uma tinta com custo baixo? Escolha a tinta Arquitetura da Anjo! Seja em obras ou reformas de paredes externas e internas, a Anjo Arquitetura é a tinta acrílica com o melhor custo benefício.</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                          <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/anjoEfeitoDecorativoCimentoQueimado.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Efeito Decorativo Cimento Queimado </h5>
+                        <p class="card-text">Indicado para aplicação interna e externa (áreas cobertas) em superfícies de reboco, concreto, com massa corrida ou acrílica, gesso e repintura.</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                          <div class="col-md-3">
+                    <div class="card">
+                      <img src="./assets/img/anjoEfeitoDecorativoMarmore.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Efeito Decorativo Mármore </h5>
+                        <p class="card-text">Indicado para paredes internas de alvenaria, concreto e gesso e áreas externas cobertas.</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>              
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <!-- próximos 4 cards -->
+                  <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/anjofoscototal.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tinta Acrílica Premium Anjo FoscoTotal </h5>
+                        <p class="card-text" title="asdasdasd">Pintura sem cheiro em até 3 horas após a aplicação? Com Anjo FoscoTotal é possível! Além de ser a tinta mais completa para sua obra ou reforma, a FoscoTotal garante rapidez e resultado perfeito!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                          <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/anjosemibrilho.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tinta Acrílica Premium Anjo Total SemiBrilho </h5>
+                        <p class="card-text">Pintura sem cheiro em até 3 horas após a aplicação? Com Anjo Total Semibrilho é possível! Além de ser a tinta mais completa para sua obra ou reforma, a Total Semibrilho garante rapidez e resultado perfeito!</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+
+                        <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/anjoToquedePetalas.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tinta Acrílica Premium Toque de Pétalas </h5>
+                        <p class="card-text">Um ambiente delicado merece uma tinta especial. Escolha a tinta acrílica Toque de Pétalas para uma pintura com toque aveludado e acabamento perfeito. Além da delicadeza da textura na parede, em 3 horas após a aplicação você já pode estar no ambiente pintado.</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                  </div>
+
+                          <div class="col-md-3">
+                    <div class="card" >
+                      <img src="./assets/img/anjoUp.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tinta Acrílica Standard Anjo UP </h5>
+                        <p class="card-text">Indicada para proteção e decoração de superfícies externas e internas de reboco, concreto, gesso, massa acrílica, massa corrida, texturas e fibrocimento</p>
+                        <a href="#" class="btn btn-primary">Comprar agora</a>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+              </div>
+              <!-- Adicionar mais itens de carrossel conforme necessário -->
+            </div>
+            <!-- Adicionar controles de carrossel aqui, se desejar -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCards2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+  <!-- inicio seção footer -->
+
+  <div class="footer1">
+    <div class="infoFooter1">
+      <p>Horário de Funcionamento: Seg / Sáb - 08:00 às 19:00</p>
+      <a id="telFooter" href="tel:+553299999-9999">+55 32 9999-9999</a>
+      <p>Av. Humberto Mauro, 150, Cataguases - MG</p>
+    </div>
+  </div>
+
+  <section class="footer2">
+    <div class="rSociais"> 
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <ul>
+      <li>
+        <a href="#">Sobre</a>
+      </li>
+      <li>
+        <a href="#">Termos de Devolução</a>
+      </li>
+    <li>
+      <a href="#">Redes Sociais</a>
+    </li>
+  </ul>
+  <p class="copyright">Palácio das tintas 2024</p>
+  </section>
+
+
+    
+      <!-- link javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b2ad1a6930.js" crossorigin="anonymous"></script>
+</body>
+</html>
